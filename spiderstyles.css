@@ -1,0 +1,98 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 6.5vw;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4, h5 {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+h5 {
+    opacity: 0;
+}
+
+h6 {
+    font-size: 25px;
+}
+
+#selectform {
+    border: 15px black;
+    background-color: gray;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+}
+
+#cart {
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+@media screen and (min-width:760px) {
+.size_container {
+    width: 97.6%;
+    margin: 20px 1.15%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 10px 5%;
+    font-size: 20px;
+}
+
+.crust_container, .sauce_container, .cheese_container {
+    width: 31%;
+    float: left;
+    margin: 20px 1.15% 130px;
+    height: 100px;
+    box-sizing: border-box;
+    display: block;
+}
+
+#selectform {
+    background-color: white;
+}
+
+h5 {
+    opacity: 1;
+    height: 25px;
+    width: 97.6%;
+    margin: 0 1.15%;
+    text-align: center;
+    clear: both;
+}
+
+.meat_container, .veggie_container:nth-child(2n) {
+    clear: left;
+}
+.meat_container, .veggie_container {
+    width: 47.65%;
+    float: left;
+    margin: 0px 1.15% 50px;
+}
+
+.buttons {
+    margin-top: 80px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+
+#cart {
+    margin-top: 20px;
+    background-color: lightgray;
+}
+}
