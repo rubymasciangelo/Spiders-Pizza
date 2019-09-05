@@ -1,9 +1,9 @@
-head {
+.heading {
     background-color: black;
 }
 
 h1 {
-    color: black;
+    color:turquoise;
     text-align: center;
     font-size: 6.5vw;
 }
