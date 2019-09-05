@@ -3,7 +3,7 @@
 }
 
 h1 {
-    text-shadow: 0 0 60px #e41749, 0 0 30px #e41749;
+    text-shadow: 0 0 10px white, 0 0 60px #e41749, 0 0 30px #e41749;
     animation-delay: 1s;
     animation: blink 6s alternate-reverse infinite;
     /*color:turquoise;
