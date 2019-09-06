@@ -41,6 +41,9 @@ h4, h5 {
     background-color: black;
     color: white;
     font-size: 20px;
+    box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
+    animation: blink 6s alternate infinite;
+    animation-delay: 3s;
 }
 
 h5 {
