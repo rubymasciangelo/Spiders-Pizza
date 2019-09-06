@@ -4,19 +4,16 @@
     font-family: "Raleway";
 }
 
-h1 {
+h1, h3 {
+    text-align: center;
     text-shadow: 0 0 10px white, 0 0 60px #e41749, 0 0 30px #e41749;
     animation-delay: 1s;
     animation: blink 6s alternate-reverse infinite;
-    
-    /*color:turquoise;
-    text-align: center;
-    font-size: 6.5vw;*/
+    font-size: 6.5vw;
 }
 
 h3 {
-    text-align: center;
-    color:turquoise;
+    font-size: 3.5vw;
 }
 
 h4, h5 {
