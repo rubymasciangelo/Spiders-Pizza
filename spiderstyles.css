@@ -6,16 +6,11 @@
     font-family: "Raleway";
     font-size: 1.3em;
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     letter-spacing: 8px;
     flex-direction: column;
-    width: 250px;
-    height: 250px;
     border: 6px solid;
-    border-left-style: hidden;
-    border-right-style: hidden;
     /*border-radius: 50%;*/
     box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
     animation: blink 6s alternate infinite;
