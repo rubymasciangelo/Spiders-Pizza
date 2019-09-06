@@ -1,5 +1,7 @@
 body {
     font-family: "Raleway";
+    background-color: black;
+    color: white;
 }
 
 .heading {
@@ -38,14 +40,11 @@ h1, h3 {
 }
 
 h4, h5 {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 20px;
-    box-shadow: 0 0 50px #0028ff;
-    animation: blink 6s alternate infinite;
-    animation-delay: 3s;
-    border: 2px hidden;
-    border-radius: 12%;
+    border: white solid 3px;
+    box-shadow: 0 0 50px #0028ff, inset 0 0 5px #0028ff;
 }
 
 h5 {
@@ -98,7 +97,7 @@ li {
 }
 
 #selectform {
-    background-color: white;
+    background-color: black;
 }
 
 h5 {
