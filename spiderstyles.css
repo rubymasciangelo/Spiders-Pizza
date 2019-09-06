@@ -38,12 +38,14 @@ h1, h3 {
 }
 
 h4, h5 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 20px;
-    box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
+    box-shadow: 0 0 50px #0028ff;
     animation: blink 6s alternate infinite;
     animation-delay: 3s;
+    border: 2px hidden;
+    border-radius: 12%;
 }
 
 h5 {
