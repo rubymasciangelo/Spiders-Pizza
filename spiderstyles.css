@@ -1,7 +1,23 @@
 .heading {
+    margin: 0;
+    padding: 0;
     background-color: black;
     color: white;
     font-family: "Raleway";
+    font-size: 1.3em;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border: 6px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
+    animation: blink 6s alternate infinite;
+    animation-delay: 3s;
 }
 
 h1, h3 {
@@ -9,12 +25,12 @@ h1, h3 {
     text-shadow: 0 0 10px white, 0 0 60px #e41749, 0 0 30px #e41749;
     animation-delay: 1s;
     animation: blink 6s alternate-reverse infinite;
-    font-size: 6.5vw;
+    /*font-size: 6.5vw;*/
 }
 
-h3 {
-    font-size: 3.5vw;
-}
+/*h3 {
+    *font-size: 3.5em;
+}*/
 
 h4, h5 {
     background-color: black;
