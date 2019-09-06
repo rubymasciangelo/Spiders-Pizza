@@ -55,6 +55,10 @@ h6 {
     font-size: 25px;
 }
 
+.subchoice {
+    padding-left: 5%;
+}
+
 #selectform {
     border: 15px black;
     background-color: gray;
