@@ -80,13 +80,8 @@ button {
     text-align: center;
 }
 
-ul {
-    list-style: none;
-}
-
-li {
-    display: inline;
-    margin: 10px 5%;
+.size {
+    display: flex;
     font-size: 20px;
 }
 
