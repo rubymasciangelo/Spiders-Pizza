@@ -55,6 +55,10 @@ h6 {
     font-size: 25px;
 }
 
+/* input [type="radio"] {
+    margin-right: 5%;
+} */
+
 .subchoice {
     padding-left: 5%;
 }
@@ -84,6 +88,7 @@ button {
     display: flex;
     font-size: 20px;
     justify-content: center;
+    padding-top: 10px;
 }
 
 #personal, #medium, #large {
@@ -93,7 +98,7 @@ button {
 .crust_container, .sauce_container, .cheese_container {
     width: 31%;
     float: left;
-    margin: 20px 1.15% 130px;
+    margin: 10px 1.15% 130px;
     height: 100px;
     box-sizing: border-box;
     display: block;
