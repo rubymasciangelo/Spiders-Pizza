@@ -85,7 +85,8 @@ button {
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    height: 26px;
+    height: 27px;
+    width: 100%;
 }
 
 #personal, #medium, #large {
