@@ -55,9 +55,6 @@ h6 {
     font-size: 25px;
 }
 
-/* input [type="radio"] {
-    margin-right: 5%;
-} */
 
 .subchoice {
     padding-left: 5%;
@@ -86,13 +83,17 @@ button {
 
 .size {
     display: flex;
-    font-size: 20px;
     justify-content: center;
     padding-top: 10px;
+    height: 26px;
 }
 
 #personal, #medium, #large {
     margin: 0 15% 0 0;
+}
+
+#extralg {
+    margin: 0 1% 0 0;
 }
 
 .crust_container, .sauce_container, .cheese_container {
@@ -107,6 +108,10 @@ button {
 #selectform {
     background-color: black;
 }
+
+/* input[type="radio"] {
+    margin-left: 5px;
+} */
 
 h5 {
     opacity: 1;
