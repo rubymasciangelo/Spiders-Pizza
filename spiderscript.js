@@ -191,5 +191,4 @@ document.getElementById("totalPrice").innerHTML= "</h3>Total: <strong>$"+running
 
 function clearAll() {
     document.getElementById("selectform").reset();
-    document.getElementById("cart").style.opacity=0;
 };
