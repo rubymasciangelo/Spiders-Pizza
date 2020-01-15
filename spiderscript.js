@@ -183,7 +183,7 @@ for (var m = 0; m < veggieArray.length; m++) {
   //takes the total and subtracts 1 since the first meat item is free
 
 runningTotal = (runningTotal + veggieTotal);
-document.getElementById("cart").style.opacity=1;
+document.getElementById("modal_cart").style.display="block";
 document.getElementById("showText").innerHTML=text1;
 document.getElementById("totalPrice").innerHTML= "</h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
 }
