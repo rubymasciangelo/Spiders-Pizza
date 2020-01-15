@@ -4,7 +4,8 @@ function getReceipt() {
     var sizeTotal = 0;
     var sizeArray = document.getElementsByClassName("size");
     var length = sizeArray.length
-//variables declared, api (getElements) leveraged to receive the array of all the "size" input elements
+    //variables declared, api (getElements) leveraged to receive the array of all the "size" input elements
+
 
 for (var i = 0; i < sizeArray.length; i++) {
     if (sizeArray[i].checked) {
