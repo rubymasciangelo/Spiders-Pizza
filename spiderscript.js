@@ -186,7 +186,12 @@ runningTotal = (runningTotal + veggieTotal);
 document.getElementById("modal_cart").style.display="block";
 document.getElementById("showText").innerHTML=text1;
 document.getElementById("totalPrice").innerHTML= "</h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
-}
+    }
+
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+        document.getElementById("modal_cart").style.display = "none";
+    }
 };
 
 function clearAll() {
