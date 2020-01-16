@@ -100,8 +100,10 @@ button {
 .modal_content {
     background-color: black;
     margin: 15% auto;
-    border: 1px solid #888;
+    /*border: 1px solid #888;*/
     width: 80%;
+    border: 6px solid;
+    box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
 }
 
 .modal_header {
