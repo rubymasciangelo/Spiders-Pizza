@@ -118,6 +118,7 @@ button {
     width: 80%;
     border: 6px solid;
     box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
+    font-size: 20px;
 }
 
 .modal_header {
