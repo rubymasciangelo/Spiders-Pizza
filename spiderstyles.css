@@ -85,13 +85,17 @@ button {
 .modal_content {
     background-color: black;
     margin: 15% auto;
-    padding: 20px;
     border: 1px solid #888;
     width: 80%;
 }
 
 .modal_header {
     padding: 2px 16px;
+}
+
+.modal_body,
+.modal_footer {
+    padding: 0 40px;
 }
 
 .close {
