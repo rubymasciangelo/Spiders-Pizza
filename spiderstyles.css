@@ -69,11 +69,6 @@ button {
     font-size: 20px;
 }
 
-#cart {
-    font-size: 20px;
-    background-color: lightgray;
-}
-
 @media screen and (min-width:760px) {
 .size_container {
     width: 97.6%;
