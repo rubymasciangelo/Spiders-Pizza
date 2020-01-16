@@ -90,6 +90,10 @@ button {
     width: 80%;
 }
 
+.modal_header {
+    padding: 2px 16px;
+}
+
 .close {
     color: #aaa;
     float: right;
