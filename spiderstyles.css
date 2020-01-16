@@ -105,7 +105,11 @@ button {
 }
 
 .modal_header {
-    padding: 2px 16px;
+    padding: 2px 16px 2px 30px;
+}
+
+h3.your_order {
+    text-align: left;
 }
 
 .modal_body,
