@@ -45,6 +45,7 @@ h4, h5 {
     font-size: 20px;
     border: white solid 3px;
     box-shadow: 0 0 50px #0028ff, inset 0 0 5px #0028ff;
+    padding: 3px 0;
 }
 
 h5 {
