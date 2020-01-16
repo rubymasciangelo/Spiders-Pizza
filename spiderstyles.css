@@ -24,7 +24,7 @@
 
 h1, h3 {
     text-align: center;
-    text-shadow: 0 0 10px white, 0 0 60px #e41749, 0 0 30px #e41749;
+    text-shadow: 0 0 10px white, 0 0 60px #7f00ff, 0 0 30px #7f00ff;
     animation-delay: 1s;
     animation: blink 6s alternate-reverse infinite;
     /*font-size: 6.5vw;*/
