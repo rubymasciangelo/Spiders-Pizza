@@ -1,5 +1,5 @@
 function getReceipt() {
-    var text1 = "<h6>Your Order:</h6>";
+    var text1 = "";
     var runningTotal = 0;
     var sizeTotal = 0;
     var sizeArray = document.getElementsByClassName("size");
