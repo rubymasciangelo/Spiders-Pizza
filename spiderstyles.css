@@ -126,6 +126,7 @@ button {
 
 h3.your_order {
     text-align: left;
+    font-size: 27px;
 }
 
 .modal_body,
@@ -207,9 +208,19 @@ h5 {
 
 .buttons {
     margin-top: 80px;
-    /*margin-left: 40%;*/
     margin-bottom: 50px;
-    /*text-align: left;*/
 }
+
+.modal_content {
+    width: 50%;
+}
+
+/*.modal_header {
+    padding-left: 8%;
+}
+.modal_body,
+.modal_footer {
+    padding: 0 8%;
+}*/
 
 }
